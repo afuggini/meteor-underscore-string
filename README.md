@@ -15,15 +15,5 @@ _.str.include('Underscore.string', 'string'); // => true
 
 ## NOTE
 
-Based off https://github.com/TimHeckel/meteor-underscore-string/ but updated for
-0.9.0 compatibility.
-
-## Author
-
-This Meteor package was published by
-[WizOne Solutions](http://www.wizonesolutions.com), a Meteor and Drupal CMS
-developer.
-
-My largest Meteor app so far is
-[https://github.com/spendflow/spendflow](Spendflow). It has a private beta.
-Check it out.
+Based off https://github.com/wizonesolutions/meteor-underscore-string/ but updated for
+1.0.2.1 compatibility.

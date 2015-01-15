@@ -1,16 +1,17 @@
 Package.describe({
-  name: 'wizonesolutions:underscore-string',
+  name: 'afuggini:underscore-string',
   summary: "underscore.string: Additional string functions for Underscore",
   version: "1.0.0",
-  git: "https://github.com/wizonesolutions/meteor-underscore-string.git"
+  git: "https://github.com/afuggini/meteor-underscore-string.git"
 });
 
-Package.on_use(function (api) {
-  api.versionsFrom("METEOR@0.9.0");
+Package.onUse(function (api) {
+  api.versionsFrom('1.0.2.1');
+
   api.use('meteor', {unordered: true});
 	api.use('underscore', ['client', 'server']);
 
-  api.add_files(['pre.js','lib/underscore.string/lib/underscore.string.js','post.js']);
+  api.addFiles(['pre.js','lib/underscore.string/lib/underscore.string.js','post.js']);
 
 	api.export('_s');
 });
